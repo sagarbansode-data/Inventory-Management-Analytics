@@ -98,7 +98,7 @@ Datasets used:
 - Relationship Analysis
 - Category Comparisons
 
-### Multivariate Analysis
+### Multivariate & Business Problem Analysis
 
 - Multi-variable Relationship Analysis
 - Feature Interaction Analysis
@@ -171,7 +171,7 @@ pip install -r requirements.txt
 4. Run the notebooks in sequence:
    - 01_Univariate_Analysis.ipynb
    - 02_Bivariate_Analysis.ipynb
-   - 03_Multivariate_Analysis.ipynb
+   - 03_Multivariate & Business Problem Analysis.ipynb
 
 ---
 
@@ -179,7 +179,7 @@ pip install -r requirements.txt
 
 **Sagar Bansode**
 
-Data Analyst
+## Data Analyst
 Pune, Maharashtra, India
 
 ---
