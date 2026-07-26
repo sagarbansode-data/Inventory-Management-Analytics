@@ -191,3 +191,10 @@ Pune, Maharashtra, India
 - Python-Based Exploratory Data Analysis
 - Real-World Warehouse Inventory Use Case
 - Actionable Business Insights and Recommendations
+
+
+## 📌 Repository Purpose
+
+This repository demonstrates a business-oriented inventory analytics case study using Python. The project showcases exploratory data analysis, business problem identification, data integration across multiple relational datasets, and actionable recommendations for improving warehouse inventory operations.
+
+The repository is intended for recruiters, hiring managers, and data analytics professionals to demonstrate practical analytical and problem-solving skills.
