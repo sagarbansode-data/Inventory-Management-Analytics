@@ -1,35 +1,66 @@
-# Logistics & Supply Chain Analytics using Python
+# 📦 Inventory Management Analytics using Python
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-This project demonstrates Exploratory Data Analysis (EDA) on multiple relational Logistics & Supply Chain datasets using Python.
+This project focuses on analysing warehouse inventory operations using Exploratory Data Analysis (EDA) on seven interconnected inventory management datasets. The objective is to identify operational inefficiencies, inventory discrepancies, workload imbalances, and validation failures that impact warehouse performance and inventory accuracy.
 
-The project focuses on analysing operational data, identifying trends, discovering hidden patterns, understanding business performance and generating actionable business insights.
+The analysis was performed using Python and business-oriented analytical techniques to convert raw operational data into meaningful business insights and actionable recommendations.
 
-## 🎯 Objectives
+---
 
-- Perform Data Cleaning
-- Perform Univariate Analysis
-- Perform Bivariate Analysis
-- Perform Multivariate Analysis
-- Understand relationships among multiple datasets
-- Discover business insights using visualisations
+# 🏢 Business Context
 
-## 📂 Dataset Information
+Warehouse inventory management plays a critical role in logistics and supply chain operations. Inaccurate inventory records, failed validations, uneven workload distribution, and inventory discrepancies can lead to operational delays, financial losses, and poor customer satisfaction.
 
-This project uses multiple Logistics & Supply Chain CSV datasets connected through common business keys.
+This project analyses warehouse operations to identify these business problems and recommend practical solutions.
 
-Example datasets include:
+---
 
-- inventory_discrepancy_log
-- inventory_item_master
-- inventory_kpi_summary
-- inventory_movement_log
-- inventory_profiling
-- inventory_validation_log
-- task_allocation_log
+# 🎯 Business Objectives
 
-## 🛠️ Technologies Used
+- Analyse warehouse inventory operations.
+- Identify warehouses with high inventory discrepancies.
+- Study inventory movement patterns.
+- Detect validation failures affecting inventory accuracy.
+- Analyse workload distribution across warehouses and staff.
+- Generate business insights to improve warehouse efficiency.
+
+---
+
+# 📊 Business Problem Statements
+
+The analysis focuses on answering the following business questions:
+
+1. Which warehouses create the highest inventory discrepancies?
+2. Are incomplete tasks responsible for inventory discrepancies?
+3. Are high-movement inventory items more likely to create discrepancies?
+4. Are some warehouses overloaded with operational work?
+5. Is workload distributed equally among warehouse staff?
+
+---
+
+# 🗂️ Dataset Information
+
+The project uses **seven relational CSV datasets** connected using common business keys such as:
+
+- Warehouse_Code
+- Item_ID
+- Movement_ID
+- Task_ID
+
+Datasets used:
+
+- Inventory Discrepancy Log
+- Inventory Item Master
+- Inventory KPI Summary
+- Inventory Movement Log
+- Inventory Profiling Dataset
+- Inventory Validation Log
+- Task Allocation Log
+
+---
+
+# 🛠️ Tools & Technologies
 
 - Python
 - Pandas
@@ -38,69 +69,126 @@ Example datasets include:
 - Seaborn
 - Jupyter Notebook
 
-## 📁 Project Structure
+---
 
-```text
-Logistics-Supply-Chain-EDA
+# 🔄 Project Workflow
 
-│
+1. Data Collection
+2. Data Cleaning
+3. Data Integration
+4. Exploratory Data Analysis
+5. Business Problem Analysis
+6. Business Insight Generation
+7. Business Recommendations
 
-├── data
-
-├── notebooks
-
-├── images
-
-├── README.md
-
-├── requirements.txt
-
-└── LICENSE
-```
+---
 
 # 📈 Exploratory Data Analysis
 
-# Univariate Analysis
+### Univariate Analysis
 
 - Distribution Analysis
-- Histogram
-- Box Plot
+- Frequency Analysis
 - Outlier Detection
+- Missing Value Analysis
 
-# Bivariate Analysis
+### Bivariate Analysis
 
 - Correlation Analysis
-- Scatter Plot
-- Heatmap
+- Relationship Analysis
+- Category Comparisons
 
-# Multivariate Analysis
+### Multivariate Analysis
 
-- Feature Relationships
-- Correlation Matrix
-- Advanced Visualisations
+- Multi-variable Relationship Analysis
+- Feature Interaction Analysis
+- Pattern Identification
 
-## 📊 Key Business Insights
+---
 
-- Identified data quality issues
-- Analysed feature distributions
-- Discovered relationships among business variables
-- Identified patterns supporting business decisions
+# 💡 Key Business Findings
 
+- Inventory discrepancies are concentrated in specific warehouses.
+- Failed validation processes are strongly associated with inventory discrepancies.
+- High-priority and high-movement inventory items have greater operational risk.
+- Workload is unevenly distributed across warehouses.
+- Task allocation among warehouse staff is imbalanced, increasing operational risk.
 
-## ▶️ How to Run
+---
 
-1. Clone Repository
+# ✅ Business Recommendations
 
-2. Install requirements
+- Strengthen inventory validation processes.
+- Monitor high-risk warehouses more closely.
+- Improve monitoring of high-priority inventory items.
+- Redistribute workload across warehouses.
+- Balance staff task allocation.
+- Implement stronger inventory audit mechanisms.
 
+---
+
+# 📚 Learning Outcomes
+
+This project demonstrates practical experience in:
+
+- Data Cleaning
+- Data Integration
+- Exploratory Data Analysis (EDA)
+- Business Problem Solving
+- Inventory Analytics
+- Logistics & Supply Chain Analytics
+- Business Storytelling
+- Data-Driven Decision Making
+
+---
+
+# 📁 Repository Structure
+
+```text
+Inventory-Management-Analytics
+│
+├── data
+├── notebooks
+├── reports
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+# ▶️ How to Run
+
+1. Clone this repository.
+2. Install the required Python libraries.
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Open Jupyter Notebook
+3. Open the notebooks in Jupyter Notebook or JupyterLab.
+4. Run the notebooks in sequence:
+   - 01_Univariate_Analysis.ipynb
+   - 02_Bivariate_Analysis.ipynb
+   - 03_Multivariate_Analysis.ipynb
 
-4. Run notebooks sequentially
+---
 
 # 👨‍💻 Author
 
 **Sagar Bansode**
+
 Data Analyst
-Pune, India
+
+Pune, Maharashtra, India
+
+---
+
+## ⭐ Project Highlights
+
+- Business-Oriented Analytics Project
+- Seven Relational Inventory Datasets
+- Python-Based Exploratory Data Analysis
+- Real-World Warehouse Inventory Use Case
+- Actionable Business Insights and Recommendations
