@@ -150,10 +150,10 @@ Inventory-Management-Analytics
 ├── data
 ├── notebooks
 ├── reports
-├── README.md
-├── requirements.txt
+├── .gitignore
 ├── LICENSE
-└── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
