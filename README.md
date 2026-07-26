@@ -179,7 +179,7 @@ pip install -r requirements.txt
 
 **Sagar Bansode**
 
-## Data Analyst
+**Data Analyst**
 Pune, Maharashtra, India
 
 ---
